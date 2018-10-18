@@ -1,0 +1,43 @@
+[
+	{
+		"className" : "sotest.po.json.SOTagJsonPO",
+		"fieldBy" : 
+			[
+				{
+					"field" : "filter",
+					"how" : "ID",
+					"using" : "tagfilter"
+				},
+				{
+					"field" : "tagdef",
+					"how" : "CSS",
+					"using" : "div[id='mainbar-full'] > p[class='mb24']"
+				},
+				{
+					"field" : "tagsdisp",
+					"how" : "CSS",
+					"using" : "div[id='tags-browser'] > div[class='grid-layout--cell tag-cell'] > a[class='post-tag']"
+				},
+				{
+					"field" : "options",
+					"how" : "CSS",
+					"using" : "div[class='grid mb24'] > div > a"
+				},
+				{
+					"field" : "popularopt",
+					"how" : "XPATH",
+					"using" : "//div[@class='grid mb24']/div/a[@data-value='popular']"
+				},
+				{
+					"field" : "nameopt",
+					"how" : "XPATH",
+					"using" : "//div[@class='grid mb24']/div/a[@data-value='name']"
+				},
+				{
+					"field" : "newopt",
+					"how" : "XPATH",
+					"using" : "//div[@class='grid mb24']/div/a[@data-value='new']"
+				}
+			]
+	}
+]

@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tech.grasshopper</groupId>
+  <artifactId>locatorfileSO</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>findbyfilewebelement</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.14.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+
+				<configuration>
+					<!-- <parallel>classes</parallel>
+					<threadCount>5</threadCount> -->
+					<includes>
+						<include>sotest.test.properties.SOHomePropertiesTest</include>
+						<include>sotest.test.properties.SOTagPropertiesTest</include>
+						<include>sotest.test.properties.SOQuestionPropertiesTest</include>
+						<!-- <include>sotest.test.excel.SOHomeExcelTest</include>
+						<include>sotest.test.excel.SOTagExcelTest</include>
+						<include>sotest.test.excel.SOQuestionExcelTest</include>
+						<include>sotest.test.json.SOHomeJsonTest</include>
+						<include>sotest.test.json.SOTagJsonTest</include>
+						<include>sotest.test.json.SOQuestionJsonTest</include> -->
+					</includes>
+					<systemProperties>
+						<property>
+							<name>webdriver.chrome.driver</name>
+							<value>E:\\Software Testing\\Selenium\\Jars\\chromedriver.exe</value>
+						</property>
+					</systemProperties>
+				</configuration>
+
+				<!-- <executions>
+					<execution>
+						<id>integration-test</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>integration-test</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>verify</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions> -->
+			</plugin>
+		</plugins>
+	</build>
+</project>

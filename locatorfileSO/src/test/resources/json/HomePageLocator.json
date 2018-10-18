@@ -1,0 +1,73 @@
+[
+	{
+		"className" : "sotest.po.json.SOHomeJsonPO",
+		"fieldBy" : 
+			[
+				{
+					"field" : "name",
+					"how" : "id",
+					"using" : "display-name"
+				},
+				{
+					"field" : "email",
+					"how" : "ID",
+					"using" : "email"
+				},
+				{
+					"field" : "password",
+					"how" : "Id",
+					"using" : "password"
+				},
+				{
+					"field" : "labels",
+					"how" : "TAG_NAME",
+					"using" : "label"
+				},
+				{
+					"field" : "search",
+					"how" : "NAME",
+					"using" : "q"
+				},
+				{
+					"field" : "soglobe",
+					"how" : "CLASS_NAME",
+					"using" : "-link--channel-name"
+				},
+				{
+					"field" : "login",
+					"how" : "LINK_TEXT",
+					"using" : "Log In"
+				},
+				{
+					"field" : "signup",
+					"how" : "PARTIAL_LINK_TEXT",
+					"using" : "Sign"
+				},
+				{
+					"field" : "tags",
+					"how" : "XPATH",
+					"using" : "//div[@id='left-sidebar']//ol[@class='nav-links']/li//a[normalize-space(.)='Tags']"
+				},
+				{
+					"field" : "users",
+					"how" : "CSS",
+					"using" : "div[id='left-sidebar'] ol[class='nav-links'] > li a[id='nav-users']"
+				},
+				{
+					"field" : "questions",
+					"how" : "CSS",
+					"using" : "div[id='question-mini-list'] div[id^='question-summary']"
+				},
+				{
+					"field" : "firstQuesTitle",
+					"how" : "XPATH",
+					"using" : "//div[@id='question-mini-list']/div/div[starts-with(@id,'question-summary') and position()=1]/div[@class='summary']//a[@class='question-hyperlink']"
+				},
+				{
+					"field" : "notice",
+					"how" : "CSS",
+					"using" : "div[id='js-gdpr-consent-banner'] a[aria-label='notice-dismiss'] svg"
+				}
+			]
+	}
+]

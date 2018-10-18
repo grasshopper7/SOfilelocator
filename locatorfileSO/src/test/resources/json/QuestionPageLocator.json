@@ -1,0 +1,38 @@
+[
+	{
+		"className" : "sotest.po.json.SOQuestionJsonPO",
+		"fieldBy" : 
+			[
+				{
+					"field" : "title",
+					"how" : "CSS",
+					"using" : "div[id='question-header'] a[class='question-hyperlink']"
+				},
+				{
+					"field" : "vote",
+					"how" : "XPATH",
+					"using" : "//div[@class='vote']//span[contains(@class,'vote-count-post')]"
+				},
+				{
+					"field" : "tags",
+					"how" : "CSS",
+					"using" : "a[class='post-tag js-gps-track']"
+				},
+				{
+					"field" : "user",
+					"how" : "CSS",
+					"using" : "div[class='user-info '] div[class='user-details']"
+				},
+				{
+					"field" : "rep",
+					"how" : "CSS",
+					"using" : "div[class='user-info '] span[class='reputation-score']"
+				},
+				{
+					"field" : "badges",
+					"how" : "XPATH",
+					"using" : "//div[@class='user-info ']//span[@class='badgecount']"
+				}
+			]
+	}
+]
