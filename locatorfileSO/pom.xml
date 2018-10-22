@@ -42,8 +42,8 @@
 				<version>2.22.0</version>
 
 				<configuration>
-					<!-- <parallel>classes</parallel>
-					<threadCount>5</threadCount> -->
+					<parallel>classes</parallel>
+					<threadCount>5</threadCount>
 					<includes>
 						<include>sotest.test.properties.SOHomePropertiesTest</include>
 						<include>sotest.test.properties.SOTagPropertiesTest</include>
