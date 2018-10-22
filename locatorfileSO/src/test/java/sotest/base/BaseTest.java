@@ -20,7 +20,7 @@ public abstract class BaseTest {
 			//WebDriver driver = new ChromeDriver(options);
 			
 			//Mentioned in pom.xml. Uncomment to run individually.
-			//System.setProperty("webdriver.chrome.driver", "E:/Software Testing/Selenium/Jars/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "Chrome Driver Location Here or in POM.xml");
 			ChromeOptions options = new ChromeOptions();
 			//Cannot use user dir in parallel
 			//options.addArguments("user-data-dir=C:/Chrome/User Data");

@@ -58,7 +58,7 @@
 					<systemProperties>
 						<property>
 							<name>webdriver.chrome.driver</name>
-							<value>E:\\Software Testing\\Selenium\\Jars\\chromedriver.exe</value>
+							<value>Add location of chrome driver</value>
 						</property>
 					</systemProperties>
 				</configuration>
