@@ -1,4 +1,4 @@
-Refer here for a detailed explanation of the framework used - http://grasshopper.tech/220/
+Refer here for a detailed explanation of the framework used - https://grasshopper.tech/220/
 
 A sample implementation using the mechanism of storing an accessing locator data from files like excel, json and properties. This automates basic workflow of the StackOverflow (valid as of 22nd October 2018) website. All three file storage formats are implemented. It looks at the following three cases –
 
