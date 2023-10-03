@@ -1,4 +1,4 @@
-Refer here for a detailed explanation of the framework used - https://ghchirp.tech/220/
+Refer here for a detailed explanation of the framework used - https://ghchirp.site/220/
 
 A sample implementation using the mechanism of storing an accessing locator data from files like excel, json and properties. This automates basic workflow of the StackOverflow (valid as of 22nd October 2018) website. All three file storage formats are implemented. It looks at the following three cases –
 
@@ -12,6 +12,6 @@ It is setup to run in parallel using Chrome. Feel free to change it to run seria
 
 Refer here for repository details - [![Maven Central](https://maven-badges.herokuapp.com/maven-central/tech.grasshopper/findbyfilewebelement/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tech.grasshopper/findbyfilewebelement)
 
-Refer here for a detailed explanation of the framework - http://ghchirp.tech/220/
+Refer here for a detailed explanation of the framework - http://ghchirp.site/220/
 
 Refer here for source code - https://github.com/grasshopper7/findbyfilewebelement
